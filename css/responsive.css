@@ -1,0 +1,394 @@
+@media(min-width:320px) and (max-width:575.98px){
+    #oliven-aside {
+        width: auto;
+    }
+    #oliven-aside .oliven-main-menu ul {
+        margin-top: -40px;
+    }
+    .header {
+        margin-left: 0px;
+        background-size: contain;
+        width: 100%;
+        margin-top: -119px;
+    }
+    .caption {
+        margin-left: -206px;
+        margin-top: -67px;
+    }
+    .header .caption h1 {
+        font-size: 33px;
+        color: #900a2e;
+        margin-left: 187px;
+        margin-top: 202px;
+    }
+    
+    
+    .images-part img {
+        margin-left: 208px;
+        width: 530px;
+    }
+    #oliven-aside {
+        position: inherit;
+    }
+    .header .caption h5 {
+        font-size: 13px;
+        margin: -11px 0px 0px 231px;
+        letter-spacing: 0;
+    }
+    .header .overly {
+        top: 543px;
+        height: 70%;
+        /* position: fixed; */
+       display: block;
+    }
+    .itemm {
+        /* margin-left: 427px; */
+        margin-top: 46px;
+        width: 256px;
+        margin-left: -59px;
+        padding-bottom: 59px;
+    }
+
+    .bridegroom .infoo h6 {
+        font-size: 26px;
+        margin-right: -7px;
+        margin-top: 8px;
+    }
+    .bridegroom .infoo span {
+        margin-right: -12px;
+        margin-top: 15px;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .bridegroom .infoo p {
+        width: 199px;
+        /* margin-left: 41px; */
+        font-size: 12px;
+        margin-top: -11px;
+        margin-right: -79px;
+    }
+    .bridegroom .infoo .social {
+        top: 264px;
+        right: 138px;
+    }
+    .bridegroom .torightt .imgg img {
+        width: 118%;
+        height: 94%;
+    }
+    .bridegroom .imgg {
+        width: 117px;
+        height: 110px;
+        margin-right: 60px;
+    }
+    .bridegroom .torightt .imgg {
+        float: right;
+        margin-top: 5px;
+        width: 129px;
+        height: 0%;
+        margin-right: -10px;
+    }
+    .bridegroom .torightt .infoo .social a {
+        margin-top: 25px;
+    }
+
+
+.bridegroom .info h6 {
+	font-size: 21px;
+	margin-left: -33px;
+}
+
+.item {
+	width: 256px;
+	margin-left: -59px;
+	margin-top: -122px;
+	height: 260px;
+}
+.bridegroom .info span {
+	margin-right: 4px;
+	font-size: 25px;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+.bridegroom .info p {
+	font-size: 12px;
+	margin-top: 35px;
+	margin-right: -78px;
+}
+    .bridegroom .toright .img {
+        float: right;
+        margin-right: -14px;
+    }
+    .bridegroom .toright .img img {
+        width: 119%;
+        height: 100%;
+        /* border-radius: 105%; */
+    }
+    .images-part img {
+        margin-left: -181px;
+        width: 213%;
+        height: 50%;
+        margin-top: -40px;
+    }
+    .bridegroom .info .social {
+        /* margin-top: 140px; */
+        /* margin-left: 54px; */
+        /* margin-right: -161px; */
+        position: absolute;
+        top: 244px;
+        right: 128px;
+        /* padding: 6px 0px; */
+        /* margin-top: 14px; */
+    }
+    .text-part {
+        margin-left: -987px;
+        margin-top: 540px;
+        width: 301px;
+    }
+    p {
+        margin: 20px 0px;
+        width: 299px;
+    }
+    .oo {
+        margin-left: 0;
+        font-size: small;
+    }
+    .ooo {
+        margin-left: 0;
+        font-size: small;
+    }
+    /* .text-part p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.75em;
+        color: #888;
+        margin: 20px 0px;
+        width: 20%;
+    } */
+    .text-part  h4 {
+        font-size: 20px;
+        width: 237px;
+    }
+    .rltnpart .start {
+        /* top: 12px; */
+        font-size: 36px;
+        margin-top: 26px;
+        margin-left: 588px;
+    }
+    #rltnstart {
+        margin-top: -240px;
+        margin-left: -642px;
+    }
+    .rltnpart .date {
+        font-size: 16px;
+        margin-left: 644px;
+        margin-top: 5px;
+        /* margin-right: -38px; */
+        width: 200px;
+    }
+    .imgesspart {
+        margin-bottom: 41px;
+    }
+    .iconn {
+        top: 412px;
+        left: 103px;
+    }
+    #frndspart {
+        margin-top: 64px;
+        padding: 0px;
+        margin-left: -468px;
+       
+    }
+    .rr {
+        margin-top: 26px;
+        margin-left: 416px;
+    }
+    .img-with-text1 {
+            width: 254px;
+    }
+    .text-part .gg {
+        top: 94px;
+        right: 47px;
+    }
+    .text-part .bb {
+        top: 62px;
+        left: 153px;
+        font-size: 19px;
+    }
+    .op {
+        margin-top: 290px;
+        margin-left: -520px;
+    }
+    .frnds-part .img {
+        margin-left: -56px;
+    }
+    .text-part1 .bbb {
+        left: 146px;
+        font-size: 20px;
+        top: 50px;
+    }
+    .img-with-text1 .text-part1 .ggg {
+        top: 94px;
+        right: 80px;
+    }
+    .ccc {
+        font-size: 16px;
+        margin-left: -7px;
+        margin-top: 15px;
+    }
+
+    .op1 {
+        margin-left: 0;
+        margin-top: -123px;
+    }
+
+    .cccd {
+        font-size: 16px;
+        position: absolute;
+        top: 191px;
+        left: -96px;
+    }
+    .img-with-text {
+        width: 253px;
+        height: 210px;
+    }
+
+
+
+    .gallery-part {
+        padding: 9px;
+        margin-left: 0;
+        width: 299px;
+    }
+    .k1 {
+        margin-left: 1px;
+    }
+.eo{
+        margin-top: 326px;
+        margin-left: -376px;
+}
+.fo{
+	margin-left: -737px;
+	margin-top: 330px;
+}
+.ao{
+	margin-top: -8px;
+}
+.bo{
+	margin-left: -376px;
+	margin-top: 330px;
+}
+.co{
+	margin-left: -737px;
+	margin-top: 330px;
+}
+.section {
+	width: 158%;
+	margin-left: -59px;
+}
+.box {
+	width: 275px;
+	height: 565px;
+	margin-left: -44px;
+	margin-top: -632px;
+}
+.attend {
+	top: 18px;
+	margin-left: 35px;
+}
+.r {
+	font-size: 20px;
+	margin-left: 42px;
+}
+.form {
+	margin-left: 17px;
+}
+button {
+	padding: 10px 20px;
+	margin-top: 7px;
+	margin-left: 158px;
+}
+
+.when {
+	width: 99%;
+	margin-left: 0px;
+	margin-top: 35px;
+	height: 1140px;
+}
+.pnj {
+	margin-left: -2px;
+}
+.pnj h6 {
+	margin-left: 47px;
+	margin-top: 16px;
+}
+.pnj h5 {
+	font-size: 29px;
+	margin-left: -9px;
+	margin-top: 37px;
+}
+.reciption {
+	margin-left: -40px;
+	width: 136%;
+	border-radius: 10px;
+}
+.creemony {
+	margin-left: 20px;
+	padding: 80px 0px;
+	margin-top: 27px;
+}
+
+.recip {
+	background: white;
+	width: 281px;
+	position: absolute;
+	margin-left: 1px;
+	margin-top: 84px;
+	border-radius: 10px;
+}
+
+.creemony h6 {
+	margin-left: 32px;
+}
+.recip h3 {
+	margin-left: 17px;
+	font-size: 42px;
+}
+.creemony span {
+	margin-left: 44px;
+}
+.creemony h5 {
+	margin-left: 16px;
+}
+.creemony p {
+	margin-left: 26px;
+}
+.ttpart span {
+	font-size: 31px;
+	margin-left: -35px;
+}
+.footerpart {
+	margin-left: -37px;
+	margin-top: -4px;
+}
+.footerpart img {
+	margin-left: -10px;
+	height: 90px;
+	width: 119%;
+	margin-top: 107px;
+}
+.ttpart {
+	top: 53%;
+}
+.iconpart {
+	left: 35%;
+}
+.memories {
+	font-size: 24px;
+	width: 200px;
+}
+.footer{
+	width: 100%;
+}
+    /* ==================== */
+}

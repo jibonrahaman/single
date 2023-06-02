@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ol{
+    list-style: none;
+    display: inline-block;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* siderpart */
+#oliven-aside{
+    padding: 60px 30px;
+    width: 22%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: #F6F1F0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+#oliven-aside .oliven-logo{
+    text-align: center;
+    /* font-family: 'Amita', cursive; */
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+    font-weight: 00;
+    /* text-transform: uppercase; */
+    margin-bottom: 60px;
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #000;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+/* #oliven-aside .oliven-logo img {
+    width: 90px;
+    margin-bottom: 0px;
+} */
+
+#oliven-aside .oliven-logo img {
+    width: 99px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 95px;
+}
+.oliven-logo span{
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+}
+#oliven-aside .oliven-logo h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: #000;
+    margin-bottom: 5px;
+}
+#oliven-aside .oliven-main-menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#oliven-aside .oliven-main-menu ul li {
+    margin: 3px 0 3px 0;
+    padding: 0 0 3px 0;
+    list-style: none;
+}
+#oliven-aside .oliven-main-menu ul li a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+    font-family: 'Amita', cursive;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.2s;
+    border-bottom: 1px solid transparent;
+}
+.header {
+	min-height: 100vh;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1141px;
+	background-size: cover;
+	margin-left: 396px;
+}
+.header .overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.header :hover.overly{
+    background: rgba(0, 0, 0, 0.6);
+   
+}
+.caption{
+    margin-left: -73px;
+}
+.header .caption h1 {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 400;
+	margin: 110px 0 15px 638px;
+	font-size: 78px;
+	color: #8d1032b3;
+	/* display: block; */
+	line-height: 1em;
+	position: relative;
+	margin-left: 282px;
+}
+.header .caption h5 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+	color: #fff;
+	text-transform: uppercase;
+	margin: -10px 0px 0px 378px;
+}
+/* siderpart */
+
+/* 2nd part */
+/* .bg-pink {
+    background-color: #faf8f7;
+} */
+.clear {
+    clear: both;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.item {
+    padding: 31px;
+    border-radius: 13px;
+    background: #e9e2e2;
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 22px; */
+    margin-right: 2px;
+    /* padding-left: 501px; */
+    margin-left: 975px;
+    width: 400px;
+    /* margin-top: 16px; */
+}
+.bridegroom .toright .img {
+    float: right;
+}
+.bridegroom .toright .img  img{
+   width: 100%;
+   height: 100%;
+}
+.bridegroom .img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* float: left; */
+}
+.bridegroom .toright .info {
+    margin-left: 0;
+    margin-right: 160px;
+    text-align: right;
+}
+/* .full-width {
+    width: 100% !important;
+} */
+.bridegroom .info h6 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.bridegroom .info h6 i {
+    color: #BD945A;
+    font-size: 16px;
+}
+.bridegroom .info span {
+    color: #BD945A;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    margin-right: -201px;
+}
+span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    /* color: inherit; */
+}
+.bridegroom .info p {
+    margin-top: 54px;
+    width: 205px;
+    float: right;
+}
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    margin: 0 0 20px;
+}
+
+.oo {
+	margin-left: -554px;
+	color: #060000f5;
+}
+.ooo {
+	margin-left: -554px;
+	color: #a427b6f5;
+}
+.bridegroom .info .social {
+    /* margin-top: 140px; */
+    /* margin-left: 54px; */
+    /* margin-right: -161px; */
+    position: absolute;
+    top: 232px;
+    right: 186px;
+}
+/* .full-width {
+    width: 100% !important;
+} */
+.bridegroom .toright .info .social a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.bridegroom .info .social a {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    color: #888;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.full-width a i{
+color: #655656;
+
+}
+
+/* 2nd part */
+.itemm {
+    padding: 31px;
+    border-radius: 10px;
+    background: #e9e2e2;
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 22px; */
+    margin-right: 587px;
+    /* padding-left: 501px; */
+    margin-left: 427px;
+    margin-top: -270px;
+    width: 400px;
+}
+.bridegroom .torightt .imgg {
+    float: right;
+}
+.bridegroom .torightt .imgg  img{
+   width: 100%;
+   height: 100%;
+}
+.bridegroom .imgg {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* float: left; */
+}
+.bridegroom .torightt .infoo {
+    margin-left: 0;
+    margin-right: 160px;
+    text-align: right;
+}
+/* .full-width {
+    width: 100% !important;
+} */
+.bridegroom .infoo h6 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.bridegroom .infoo h6 i {
+    color: #BD945A;
+    font-size: 16px;
+}
+.bridegroom .infoo span {
+    color: #BD945A;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    margin-right: -164px;
+}
+span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    /* color: inherit; */
+}
+.bridegroom .infoo p {
+    margin-top: 54px;
+    width: 205px;
+    float: right;
+}
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    margin: 0 0 20px;
+}
+.bridegroom .infoo .social {
+    /* margin-top: 140px; */
+    /* margin-left: 54px; */
+    /* margin-right: -161px; */
+    position: absolute;
+    top: 232px;
+    right: 186px;
+}
+/* .full-width {
+    width: 100% !important;
+} */
+.bridegroom .torightt .infoo .social a {
+    margin-right: 0;
+    margin-left: 10px;
+
+}
+.bridegroom .infoo .social a {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    color: #888;
+    margin-right: 10px;
+    font-size: 12px;
+    
+}
+
+
+/* 2nd part */
+
+ /* 3ed part */
+ .section-padding{
+    padding: 100px 0px;
+ }
+ .container {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 32px;
+}
+.images-part img {
+    width: 508px;
+    height: 522px;
+    /* margin-right: -60px; */
+    margin-left: 376px;
+}
+.text-part h5 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    position: relative;
+    top: -514px;
+    right: -940px;
+    color: #BD945A;
+}
+.text-part h3{
+font-size: 30px;
+font-weight: 500;
+font-family: 'Cormorant Garamond', serif;
+text-transform: uppercase;
+}
+.data{
+        width: 494px;
+        margin-left: 945px;
+        /* margin-bottom: 298px; */
+        margin-top: -511px;
+}
+.data h6{
+    color: #BD945A;
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.data h3 {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    margin:20px 0px;
+}
+h4{
+        color: #000;
+        font-family: 'Amita', cursive;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.25em;
+        margin: 0 0 20px 0;
+}
+.images-part{
+    position: relative;
+}
+.images-part img{
+    padding: 0 30px 30px 15px;
+    position: relative;
+}
+
+ /* 3ed part */
+#frndspart{
+    margin-top: 0px;
+    padding: 0px;
+}
+.frnds-part .img img {
+    width: 125px;
+    height: 114px;
+    border-radius: 50%;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+.frnds-part .img{
+        margin-left: -38px;
+}
+.img-with-text {
+    overflow: hidden;
+    margin-left: 412px;
+    padding: 30px;
+    width: 400px;
+    background: #e9e2e2;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 182px;
+}
+.text-part .gg{
+        position: absolute;
+        top: 97px;
+        right: 183px;
+        font-size: 28px;
+}
+.text-part .bb {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 62px;
+    left: 179px;
+    font-size: 22px;
+    color: #888;
+}
+.rr {
+	margin-left: 411p;
+	margin-top: 63px;
+	margin-left: 410px;
+	font-family: 'Alex Brush', cursive;
+	color: #BD945A;
+	font-size: 35px;
+}
+.mm {
+    margin-left: 450px;
+    margin-top: 3px;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tttt{
+    margin-top: -146px;
+}
+.cccd {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    /* margin: 13px 0px; */
+    margin-left: 127px;
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+
+
+
+
+ /* ============= */
+
+ .img-with-text1{
+    overflow: hidden;
+    margin-left: 931px;
+    padding: 30px;
+    width: 400px;
+    background: #e9e2e2;
+    position: relative;
+    border-radius: 15px;
+    margin-top: -229px;
+}
+.img-with-text1 .img img {
+    width: 125px;
+    height: 114px;
+    border-radius: 50%;
+    margin-left: 38px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.img-with-text1
+.text-part1 .ggg{
+        position: absolute;
+        top: 97px;
+        right: 183px;
+        font-size: 28px;
+        
+}
+.text-part1 h5 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    position: relative;
+    top: -514px;
+    right: -940px;
+    color: #BD945A;
+}
+.text-part1 .bbb {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 62px;
+    left: 179px;
+    font-size: 22px;
+    color: #888;
+}
+.rr {
+    margin-left: 411p;
+    margin-top: 26px;
+    margin-left: 410px;
+    font-family: 'Alex Brush', cursive;
+    color: #BD945A;
+    font-size: 35px;
+}
+.mm {
+    margin-left: 450px;
+    margin-top: 3px;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tttt{
+    margin-top: -146px;
+}
+.op {
+	margin-top: 270px;
+	margin-left: -481px;
+}
+.op1 {
+	margin-left: 550px;
+	margin-top: -410px;
+}
+.ccc {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    /* margin: 13px 0px; */
+    margin-left: 127px;
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+
+ /* ============= */
+
+ /* ============== */
+#rltnstart{
+        margin-top: -240px;
+}
+.gallery{
+   
+    position: relative;
+    top: 26px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: -4px;
+}
+
+ .rltnpart .start {
+   
+    /* top: 12px; */
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: -12px;
+    margin-top: 33px;
+    margin-left: 614px;
+}
+.rltnpart .date {
+    color: #000;
+    font-family: 'Amita', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-left: 782px;
+}
+
+ /* ============== */
+
+ /* =================== */
+ .gallery-part{
+    padding: 40px 30px;
+    margin-left: 400px;
+    background: #e9e2e2;
+ }
+ .imgesspart{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+ }
+ .imgesspart img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+ }
+ .overflow{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 2, 2, 0.4);
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition: .2s;
+ }
+ .imgesspart:hover .overflow{
+    top: 0;
+ }
+ .texttt h6{
+   position: absolute;
+   color: #fff;
+   opacity: 0;
+   top:50% ;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 16px;
+   transition: .5s;
+   visibility: hidden;
+ }
+ .imgesspart:hover .texttt h6{
+opacity: 1;
+visibility: visible;
+ }
+.memories{
+    color: #000;
+    font-family: 'Amita', cursive;
+    /* font-family: 'Cormorant Garamond', serif; */
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+ .k1{
+        margin-left: 25px;
+ }
+.k2 {
+    margin-top: -301px;
+    margin-left: 377px;
+}
+.k3 {
+    margin-top: -301px;
+    margin-left: 738px;
+}
+.MB{
+    margin-top: 35px;
+}
+ /* =================== */
+
+ /* =================== */
+ .from-part{
+    padding-top: 100px;
+ }
+ .section {
+    background-image: url(../images/banner-2.jpg);
+    background-attachment: fixed;
+    background-position: initial;
+    background-size: cover;
+    width: 105%;
+    height: 700px;
+}
+.box {
+    width: 585px;
+    height: 600px;
+    background: #c3c3c3;
+    margin-left: 578px;
+    margin-top: -632px;
+}
+.attend {
+    position: relative;
+    top: 25px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 199px;
+}
+.r {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 237px;
+    margin-bottom: -23px;
+}
+.form {
+    margin-left: 56px;
+    margin-top: 39px;
+}
+.form input {
+    width: 87%;
+    height: 30px;
+    box-shadow: none;
+    /* border: 1px solid #e9e2e2; */
+    /* background-color: #fff; */
+    border: 1px solid #e9e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 90%;
+    padding: 5px;
+    font-size: 20px;
+    height: 130px;
+    color: #655656;
+}
+button{
+    padding: 15px 20px;  
+    background: #BD945A; 
+      border-radius: 8px;
+      margin-top: 5px;
+}
+button:hover{
+    background: #e9e2e2;
+    color: #888;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif; 
+       transform: scale(1.1s);
+}
+ /* =================== */
+
+ /* ============================ */
+ .when {
+    background:#ebe9f4;
+    /* margin-left: 5px; */
+    width: 101%;
+}
+ .pnj{
+    margin-left: 815px;
+ }
+.pnj img {
+    margin-top: 75px;
+    box-shadow: none;
+    border: none;
+    height: 20px;
+    width: 255px;
+    margin-left: -30px;
+}
+.pnj h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #7A7A7A;
+    font-weight: 400;
+    margin-left: 66px;
+    margin-top: 30px;
+    letter-spacing: 6.2px;
+}
+.pnj h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    color: #7A7A7A;
+    font-weight: 400;
+    margin-left: -28px;
+    margin-top: 18px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+}
+
+.reciption {
+    width: 794px;
+    height: 410px;
+    background: #fff;
+    margin-left: 535px;
+    position: relative;
+}
+.creemony {
+    margin-left: 67px;
+    padding: 80px 20px;
+}
+.creemony h3 {
+    font-family: 'Satisfy', cursive;
+    color: #676483;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+.creemony p {
+    margin-left: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin-top: 0px;
+}
+.creemony span {
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: #676483;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    margin-top: 21px;
+}
+.creemony h5 {
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin-top: 17px;
+}
+.creemony h6 {
+    margin-left: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin-top: 10px;
+}
+.recip {
+    margin-left: 459px;
+    margin-top: -388px;
+}
+.iconn{
+    position: absolute;
+    top: 192px;
+    left: 372px;
+
+}
+.iconn i{
+border: 3px solid #676483;
+background: #fff;
+padding: 18px;
+border-radius: 50%;
+color: #676483;
+
+}
+ /* ============================ */
+
+
+ /* =============== */
+ .footerpart{
+    background: #faf8f7;
+ margin-left: 300px;
+ position: relative;
+}
+.iconpart {
+	/* margin-left: 200px; */
+	position: absolute;
+	top: 31%;
+	left: 42%;
+	transition: .4s;
+}
+.iconpart i {
+	padding-right: 20px;
+	font-size: 24px;
+	color: #676483;
+  
+}
+.iconpart i:hover{
+    color: #676483;
+    font-size:  26px;
+}
+.footerpart img {
+	margin-left: 310px;
+	height: 114px;
+	width: 419px;
+	margin-top: 92px;
+}
+.ttpart {
+	position: absolute;
+	top: 49%;
+	left: 37%;
+}
+.ttpart span {
+	font-family: 'Alex Brush', cursive;
+	color: #676483;
+	font-size: 43px;
+}
+ /* =============== */
